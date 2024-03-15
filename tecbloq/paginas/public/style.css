@@ -1,0 +1,238 @@
+body {
+    background-color: rgba(235, 234, 234, 0.534);
+}
+
+a {
+    text-decoration: none;
+    font: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    text-align: center;
+    justify-self: right;
+    font-size: 20px;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 166, 0, 0.658);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: auto;
+    margin: auto;
+
+}
+
+
+h2 {
+    text-align: left
+}
+
+h2:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 166, 0, 0.658);
+    border: 50px;
+    border-radius: 10px;
+}
+
+.banco {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.elemento {
+    margin: 10px;
+    padding: 10px;
+}
+
+div#home {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div#home:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 166, 0, 0.658);
+    font-size: 20px;
+    border: 50px;
+    border-radius: 10px;
+}
+
+div#jogos {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div#jogos:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 166, 0, 0.658);
+    font-size: 20px;
+    border: 50px;
+    border-radius: 10px;
+}
+
+div#celulares {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div#celulares:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 166, 0, 0.658);
+    font-size: 20px;
+    border: 50px;
+    border-radius: 10px;
+}
+
+div#informação {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div#informação:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 166, 0, 0.658);
+    font-size: 20px;
+    border: 50px;
+    border-radius: 10px;
+}
+
+div#eletronicos {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div#eletronicos:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 166, 0, 0.658);
+    font-size: 20px;
+    border: 50px;
+    border-radius: 10px;
+}
+
+.texto {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.postagem {
+    background: rgb(207, 207, 207);
+    padding: 5px;
+    width: 36%;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.postagem-lado {
+    background: rgb(207, 207, 207);
+    padding: 5px;
+    width: 15;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    top: 172px;
+    right: 16%;
+}
+
+.post {
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    width: 250px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+.rodape {
+    background: rgba(197, 197, 197, 0.473);
+    border: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    width: auto;
+    margin: auto;
+}
+
+.leiamais {
+    color: orange;
+    border: 1px;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    margin: 80px;
+    width: 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Categorias{
+    font-weight: lighter;
+    display: block;
+    margin: 10px;
+    width: auto;
+    padding: 5px;
+    justify-content: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-self: right;
+    color: orange;
+    font-size: large;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 10px;
+    background : orange;
+} 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+        <br>
+        <br>
+  
+
+  
+    <div id="main">
+        <div class="button-container">
+            <table id="tabela" align="center">
+                <tr>
+                    <td>
+                        <img src="logo.png" alt="logo">
+                    </td>
+                    <td>
+                        <div class="button-wrapper">
+                            <button class="custom-button" onclick="location.href='login.html'">Login</button>
+                            <button class="custom-button" onclick="location.href='cadastro.html'" >Cadastrar</button>
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div id="capa" aling="center">
+            <img src="capa.png" alt="capa da unes">
+        </div> 
+        <div id="content">
+            <label for="name">
+                <h4>Sobre a instituição</h4>
+                Aqui vamos contar um pouco sobre a instituição.
+            </label>
+            <br> <br>
+            <div class="contato">
+                <h4>Contato</h4>
+                <div class="form-group">
+                  <label for="contato">Aqui vai o contato</label>
+                  
+                </div>
+                <br>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="text" name="email" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="tel">Telefone</label>
+                  <br>
+                  <input type="text" name="tel" id="tel">
+                </div>
+                <div class="form-group">
+                  <label for="obs">Texto</label>
+                  <br>
+                  <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                  <button type="submit" class="btn-enviar">Enviar</button>
+                </div>
+              </div>
+        </div>
+    </div>
+</body>
+
+</html>
